@@ -18,7 +18,7 @@ and can be used and shared by anybody.
 Edited by Laurent Guerard (lguerard) to adapt to the theme used in the presentation
 and avoid showing during the 1st and last sections.
 
-![ContextDots Preview](https://raw.githubusercontent.com/byvlstr/ContextDots/master/Preview/Screenshot.png)
+![ContextDots Preview](Preview/ContextDots.png)
 
 
 INSTRUCTIONS
@@ -30,6 +30,7 @@ compatible)
 + Use PowerPoint's "Section" feature to separate important parts
 + Keep space free (default is 25 points) at the top (or bottom) of the slide
 
+![Sections Preview](Preview/Sections.png)
 
 HOW TO USE IT
 
