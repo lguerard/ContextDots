@@ -58,7 +58,7 @@ simply select "View" -> "Macros" -> "ContextDots" -> "Execute"
 REMOVE CONTEXTDOTS FROM PRESENTATION
 
 To remove ContextDots from your slides, select "Edit" in "Macros" and
-replace the code with the code in delete_ContextDots
+replace the code with the code in RemoveContextDots
 
 
 
