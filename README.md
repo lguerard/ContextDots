@@ -15,6 +15,9 @@ ContextDots was written by Valentin Lungenstrass (vlstr) in VBA and is
 currently available in version 1.0. This code snippet is Open Source
 and can be used and shared by anybody.
 
+Edited by Laurent Guerard (lguerard) to adapt to the theme used in the presentation
+and avoid showing during the 1st and last sections.
+
 ![ContextDots Preview](https://raw.githubusercontent.com/byvlstr/ContextDots/master/Preview/Screenshot.png)
 
 
@@ -62,10 +65,8 @@ replace the code with the code in delete_ContextDots
 PERSONALIZE CONTEXTDOTS
 -------------------------
 
-+ If you want to change the bullets' or background colours, here is a
-set of popular colours:
-
-vbBlack, vbRed, vbGreen, vbYellow, vbBlue, vbWhite
++ The macro is set up to use the 6th color of the theme of the presentation.
+This can be changed by changing the number line 22.
 
 If you look for a specific colour, you might want to look for your
 colour's RGB values and write "RGB(r, g, b)" in the code
@@ -89,6 +90,5 @@ FAQ
 
 - Can I keep the ContextDots Macro in my Microsoft PowerPoint Macro list? At this moment, there is no (easy) way to keep record of used PPT macros... 
 
-- Will there be a method which doesn't require macro/coding skills? Stay tuned ;)
 
 
