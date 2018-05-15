@@ -1,19 +1,20 @@
-Sub ContextDots_byvlstr()
+Sub RemoveContextDots()
     On Error Resume Next
-    
             With ActivePresentation
-            
-                SectionCount = .SectionProperties.Count
-                
+             
+                SectionCount = .SectionProperties.Count - 1
                 For X = 1 To .Slides.Count
-                
-                    .Slides(X).Shapes("BG").Delete
-                    
-                    .Slides(X).Shapes("Bullet").Delete
-                    
-                    .Slides(X).Shapes("SectionTitleBox").Delete
-                    
+                 
+                    For Y = 2 To SectionCount
+                     
+                        SectionSlidesCount = .SectionProperties.SlidesCount(Y)
+                        For Z = 1 To SectionSlidesCount
+                            .Slides(X).Shapes("Background").Delete
+                            .Slides(X).Shapes("Bullet").Delete
+                            .Slides(X).Shapes("SectionTitleBox").Delete
+                            .Slides(X).Shapes(textbox).Delete
+                        Next Z:
+                    Next Y:
                 Next X:
-                
             End With
 End Sub
