@@ -30,7 +30,7 @@ compatible)
 + Use PowerPoint's "Section" feature to separate important parts
 + Keep space free (default is 25 points) at the top (or bottom) of the slide
 
-![Sections Preview](Preview/Sections.png)
+![Sections Preview](Preview/SectionsExemples.png)
 
 HOW TO USE IT
 
