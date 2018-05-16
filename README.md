@@ -16,7 +16,8 @@ currently available in version 1.0. This code snippet is Open Source
 and can be used and shared by anybody.
 
 Edited by Laurent Guerard (lguerard) to adapt to the theme used in the presentation
-and avoid showing during the 1st and last sections.
+and avoid showing during the 1st and last sections. Also the remove macro has been improved to 
+really remove everything.
 
 ![ContextDots Preview](Preview/Dots.png)
 
